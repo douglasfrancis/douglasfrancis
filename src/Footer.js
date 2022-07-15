@@ -8,7 +8,7 @@ export default function Footer() {
     return (
     <footer>
         <p>
-            Website by Frantech Web Solutions © {year}
+            Douglas Francis © {year}
         </p>
     </footer>
   )

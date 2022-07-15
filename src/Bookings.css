@@ -4,13 +4,50 @@ form{
     justify-content: center;
     align-items: center;
     width: 50vw;
+    max-width: 1000px;
+    min-width: 350px;
     margin: 0 auto;
+
 }
 
-input {
+input, textarea {
     margin: 0.5rem;
     width: 100%;
-    padding: 5px;
     border-radius: 5px;
-    border: 1px solid black;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    background-color: unset;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+textarea{
+    height: 200px;
+}
+
+#booking-page{
+    background-image: url('./bookings.jpeg');
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#book-btn{
+    border: 1px solid white;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: unset;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#book-btn:hover{
+    cursor: pointer;
+
 }
